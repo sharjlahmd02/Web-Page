@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    background:  linear-gradient( rgba(0, 0, 0, 0.91),rgba(0, 0, 0, 0.867)) , url(./images/drone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbar{
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+b{
+    color: greenyellow;
+    font-weight: 800;
+    margin-left: -5px;
+    font-size: 21px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    gap: 10px;
+     margin-left: 3%;
+}
+
+.image{
+    margin-top: -8%;
+}
+
+
+p{
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-top: 70x;
+}
+
+
+.crdOne{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+h5{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+span{
+    color: greenyellow;
+}
+
+#btn{
+    background-color: rgb(163, 252, 29);
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#btn:hover{
+    background-color: rgb(119, 198, 0);
+}
+
+.card{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 7%;
+}
+
+
+h3{
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+}
+.ft{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.con ul{
+    display: flex;
+    gap: 18px;
+    margin-top: 16px;
+    margin-top: 10px;
+}
+
+.con ul li{
+    list-style: none;
+}
+
+.con ul li a{
+    font-size: 28px;
+    color: #fff;
+    transition: .2s ease;
+}
+
+.con ul li a:hover{
+    color: greenyellow;
+}
